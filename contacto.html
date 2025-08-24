@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Ponte en contacto con Mundo Fórmula 1. Envía tus preguntas, sugerencias o comentarios sobre la Fórmula 1 y nuestro sitio web." />
+    <title>Contacto | Mundo Fórmula 1</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="img/Logo.png" alt="Logo de Mundo Fórmula 1 con un monoplaza rojo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="equipos.html">Equipos</a></li>
+                <li><a href="pilotos.html">Pilotos</a></li>
+                <li><a href="calendario.html">Calendario</a></li>
+                <li><a href="tecnologia.html">Tecnología</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+            </ul>
+        </nav>
+        <h1>Calendario de la Fórmula 1</h1>
+    </header>
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna duda, sugerencia o comentario? Completa el formulario y nos pondremos en contacto contigo.
+            </p>
+
+            <form action="" method="">
+
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required><br>
+
+                <label for="numero">Numero telefonico:</label>
+                <input type="number" id="numero" name="numero" placeholder="Tu numero telefonico" required><br>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Motivo de tu mensaje" required><br>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."
+                    required></textarea><br>
+
+                <label for="tipo">Tipo de consulta:</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="informacion">Información</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="reclamo">Reclamo</option>
+                    <option value="otro">Otro</option>
+                </select><br>
+
+                <label>
+                    <input type="checkbox" name="privacidad" required>
+                    Acepto la <a href="politica_de_privacidad.html">política de privacidad</a>.
+                </label><br>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+
+    </main>
+        
+    <footer>
+        <p>Todos los derechos reservados, Camilo Jaimes 2025 &copy; Copyright | Fórmula 1 Fan Page.</p>
+        <a href="politica_de_privacidad.html">Política de privacidad</a>
+    </footer>
+</body>
+
+</html>
